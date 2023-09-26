@@ -7,12 +7,12 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/login"
+        android:id="@+id/tVLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/login"
         android:textColor="@color/black"
-        android:textSize="30dp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,49 +20,50 @@
         app:layout_constraintVertical_bias="0.153" />
 
     <EditText
-        android:id="@+id/usuario"
+        android:id="@+id/eTUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
+        android:ems="12"
         android:inputType="text"
         android:hint="@string/usuario"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login"
-        app:layout_constraintVertical_bias="0.101" />
+        app:layout_constraintTop_toBottomOf="@+id/tVLogin"
+        app:layout_constraintVertical_bias="0.1" />
 
     <EditText
-        android:id="@+id/contrasena"
+        android:id="@+id/eTContrasena"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
+        android:ems="12"
         android:hint="@string/contrasena"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/usuario"
+        app:layout_constraintTop_toBottomOf="@+id/eTUsuario"
         app:layout_constraintVertical_bias="0.1" />
 
     <CheckBox
         android:id="@+id/cBRecordarUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:buttonTint="#9C27B0"
+        android:checked="true"
         android:text="@string/recordar_usuario"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:textColorHint="@color/purple"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/contrasena"
-        app:layout_constraintVertical_bias="0.117"
+        app:layout_constraintTop_toBottomOf="@+id/eTContrasena"
+        app:layout_constraintVertical_bias="0.12"
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/botonAcceder"
+        android:id="@+id/btnnAcceder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/acceder"

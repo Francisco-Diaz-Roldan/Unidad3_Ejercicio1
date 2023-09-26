@@ -5,4 +5,7 @@
     <string name="contrasena">Contraseña</string>
     <string name="recordar_usuario">Recordar usuario</string>
     <string name="acceder">Acceder</string>
+    <string name="acceso">Acceso</string>
+    <string name="zona_2">Zona 2</string>
+    <string name="zona_1">Zona 1</string>
 </resources>
