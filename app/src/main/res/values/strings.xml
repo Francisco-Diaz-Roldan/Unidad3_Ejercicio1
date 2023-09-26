@@ -8,4 +8,6 @@
     <string name="acceso">Acceso</string>
     <string name="zona_2">Zona 2</string>
     <string name="zona_1">Zona 1</string>
+    <string name="nombre">Nombre</string>
+    <string name="email">Email</string>
 </resources>
