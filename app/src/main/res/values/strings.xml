@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Unidad3_Ejercicio1</string>
+    <string name="login">Login</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="recordar_usuario">Recordar usuario</string>
+    <string name="acceder">Acceder</string>
 </resources>
